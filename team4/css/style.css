@@ -73,3 +73,10 @@ p::before {
     font-size: 30px;
     content: '«'
 }
+a {
+    text-decoration: none;
+    color: #fe7a47;
+}
+a:hover {
+    color: #d8412f;
+}
