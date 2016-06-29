@@ -15,6 +15,7 @@ h1 {
     font-size: 150px;
     color: #fe7a47;
     text-align: center;
+    margin: 50px;
 }
 h1::after {
     color: #d8412f;
@@ -38,6 +39,7 @@ h3 {
     width: 80%;
     border: 0;
     border-radius: 20px;
+    padding: 20px;
 }
 .photo {
     width: 300px;
@@ -47,5 +49,26 @@ h3 {
     margin: 20px;
 }
 .info {
-    width: 90%;
+    width: 95%;
+    margin: 50px;
+}
+li {
+    font-size: 20px;
+}
+li::before {
+    color: #d8412f;
+    content: '● ';
+•}
+p {
+    font-size: 20px;
+}
+p::after {
+    color: #d8412f;
+    font-size: 30px;
+    content: '»'
+}
+p::before {
+    color: #d8412f;
+    font-size: 30px;
+    content: '«'
 }
