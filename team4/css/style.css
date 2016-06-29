@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'atvice.ttf';
+    src: url(fonts/ATViCE.ttf);
+}
+body {
+    background-color: #f5ca99;
+}
+/*
+header {
+    background-color: #5ea8a7;
+}
+*/
+h1 {
+    font-family: "atvice.ttf";
+    font-size: 150px;
+    color: #fe7a47;
+    text-align: center;
+}
+h1::after {
+    color: #d8412f;
+    content: '4'
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #d8412f;
+    margin: 50px;
+}
+h3 {
+/*    text-align: center;*/
+    font-size: 30px;
+    color: #fe7a47;
+    margin: 20px;
+}
+.content {
+    background-color: #fcfdfe;
+    margin: auto;
+    width: 80%;
+    border: 0;
+    border-radius: 20px;
+}
+.photo {
+    width: 300px;
+    float: left;
+    border: solid 5px #d8412f;
+    border-radius:200px;
+    margin: 20px;
+}
+.info {
+    width: 90%;
+}
