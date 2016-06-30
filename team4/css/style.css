@@ -2,6 +2,10 @@
     font-family: 'atvice.ttf';
     src: url(fonts/ATViCE.ttf);
 }
+@font-face {
+    font-family: 'PFScandalPro-Black.ttf';
+    src: url(fonts/PFScandalPro-Black.ttf);
+}
 body {
     background-color: #f5ca99;
 }
@@ -17,7 +21,7 @@ h1 {
     text-align: center;
     margin: 50px;
 }
-h1::after {
+.header::after {
     color: #d8412f;
     content: '4'
 }
@@ -49,6 +53,14 @@ h3 {
     border-radius:200px;
     margin: 20px;
 }
+.poster {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin: 50px 50px;
+    border-radius: 20px;
+    position: relative;
+}
 .info {
     width: 95%;
     margin: 50px;
@@ -79,4 +91,86 @@ a {
 }
 a:hover {
     color: #d8412f;
+}
+.fantastic4 {
+    position: relative;  
+/*    display: none;*/
+}
+.epic {
+/*    float: right;*/
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px 10px;
+}
+.epic::after {
+    content: 'ヾ(-_- )ゞ';
+}
+.span1 {
+    font-family: "PFScandalPro-Black.ttf";
+    color:#d8412f;
+    font-size: 70px;
+    position: absolute;
+    bottom: 80%;
+    left: 15%;
+    text-shadow: #fcfdfe 2px 0px, #fcfdfe 2px 2px, #fcfdfe 0px 2px, #fcfdfe -2px 2px, #fcfdfe -2px 0px, #fcfdfe -2px -2px, #fcfdfe 0px -2px, #fcfdfe 2px -2px;
+    z-index: 2;
+}
+.span2 {
+    font-family: "PFScandalPro-Black.ttf";
+    color: #fe7a47;
+    font-size: 40px;
+    position: absolute;
+    bottom: 78%;
+    left: 20%;
+    text-shadow: #fcfdfe 2px 0px, #fcfdfe 2px 2px, #fcfdfe 0px 2px, #fcfdfe -2px 2px, #fcfdfe -2px 0px, #fcfdfe -2px -2px, #fcfdfe 0px -2px, #fcfdfe 2px -2px;  
+}
+.span3 {
+    font-family: "PFScandalPro-Black.ttf";
+    color: #fcfdfe;
+    font-size: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 60%;
+}
+.hover {
+    position: relative;
+}
+.hover_h2 {
+    margin: 0;
+    padding: 0;
+/*
+    position: absolute;
+    bottom: -40%;
+    left: 20%;
+*/
+}
+/*
+div.hover:hover > div.fantastic4 {
+    display: block;
+}*/
+audio {
+    margin: 0% 0 0 20%;
+    width: 600px;
+    background-color: red;
+}
+.yeah {
+    font-size: 40px;
+    text-align: center;
+    margin: 100px;
+    color: gray;
+}
+._2::after {
+   content: '⌐■-■'; 
+    color: black;
+}
+._3 {
+    color: black;
+}
+._3::before {
+    color: gray;
+    content: "("
+}
+._3::after {
+    color: gray;
+    content: ')'
 }
