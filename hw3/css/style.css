@@ -1,12 +1,14 @@
-html {
+p, li {
+    font-family: "arial";
+}
+body {
     background-color: #f9f9f9;
 }
-
 .wraper {
     width: 1060px;
-    height: 900px;
+    height: 100vh;
     background-color: white;
-    margin: auto;
+    margin: 0 auto;
     -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
@@ -110,7 +112,7 @@ p {
 }
 
 .footer_menu {
-    margin: 65px 0px 300px 0px;
+    margin: 65px 0px 0px 0px;
 }
 
 .logo {
