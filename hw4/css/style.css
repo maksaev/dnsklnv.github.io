@@ -68,18 +68,17 @@ h2 {
 
 .countries-item {
     display: inline-block;
-    margin: 8px;
 }
 
 .countries {
     text-align: right;
     font-size: 0;
-    margin: 35px 20px 0px 0px;
+    margin: 45px 5px 0px 0px;
 }
 
 .flag {
     display: block;
-    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 a {
@@ -88,8 +87,9 @@ a {
 }
 
 .countries-name {
+    text-align: center;
+    display: block;
     font-size: 9pt;
-    padding: 5px;
     color: #128aa7;
     text-decoration: underline;
 }
@@ -145,9 +145,9 @@ nav {
     position: absolute;
     background-color: #303030;
     top: 26px;
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 ul.menu > li.menu-item:hover > ul.submenu {
@@ -161,7 +161,7 @@ ul.menu > li.menu-item:hover > ul.submenu {
 }
 
 .content_centre {
-    flex: 250%;
+    flex: 1 100%;
     background-color: #ffffff;
     border-left: solid 1px #c7cacf;
     border-right: solid 1px #c7cacf;
@@ -172,6 +172,7 @@ ul.menu > li.menu-item:hover > ul.submenu {
 .content_right {
     background-color: #edeef0;
     padding: 20px;
+    flex: 2 30%;
 }
 
 h3 {
