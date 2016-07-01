@@ -129,12 +129,11 @@ nav {
 
 .menu-link,
 .submenu-link {
-    padding: 5px 35px 6px 0px;
-    /*    margin: 0 0 0 30px;*/
+    padding: 5px 35px 6px 5px;
 }
 
 .menu:first-child {
-    margin: 0 0 0 35px;
+    margin: 0 0 0 16px;
 }
 
 .submenu-item {
@@ -146,6 +145,9 @@ nav {
     position: absolute;
     background-color: #303030;
     top: 26px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 ul.menu > li.menu-item:hover > ul.submenu {
