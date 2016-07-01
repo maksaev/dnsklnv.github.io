@@ -119,15 +119,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', end
     padding: 5px 25px 5px 0px;
 /*    margin: 0px 0px 0px 0px;*/
 }
-.menu-link {
+.menu-link, .submenu-link {
     padding: 5px 35px 6px 5px;
 }
 .submenu-link {
-    
 }
 .submenu-item {
 /*    padding: 5px 49px 5px 5px;*/
 /*    background-color: rebeccapurple;*/
+    padding: 5px 10px 5px 0px;
+
 }
 .submenu {
     display: none;
