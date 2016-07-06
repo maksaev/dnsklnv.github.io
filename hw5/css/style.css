@@ -74,7 +74,7 @@ li {
     clear: both;
 }
 .content-box {
-    height: 100vh;
+    min-height: 1028px;
     background: rgba(78, 171, 218, 1);
     background: -moz-linear-gradient(top, rgba(78, 171, 218, 1) 0%, rgba(134, 166, 177, 1) 11%, rgba(44, 63, 59, 1) 36%, rgba(89, 90, 14, 1) 57%, rgba(166, 145, 86, 1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(78, 171, 218, 1)), color-stop(11%, rgba(134, 166, 177, 1)), color-stop(36%, rgba(44, 63, 59, 1)), color-stop(57%, rgba(89, 90, 14, 1)), color-stop(100%, rgba(166, 145, 86, 1)));
@@ -85,10 +85,15 @@ li {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4eabda', endColorstr='#a69156', GradientType=0);
 }
 .content {
-    min-height: 100vh;
+    min-height: 1028px;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: top;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .form {
     width: 555px;
@@ -100,7 +105,7 @@ li {
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
+    margin: 140px auto;
 }
 h1 {
     text-align: center;
