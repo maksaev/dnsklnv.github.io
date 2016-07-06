@@ -86,7 +86,7 @@ li {
 }
 .content {
     min-height: 100vh;
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: top;
 }
