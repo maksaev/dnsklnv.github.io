@@ -178,7 +178,6 @@ input {
     border: solid 1px;
     border-color: transparent;
     border-bottom: 1px solid #484948;
-    text-indent: 30px;
 }
 .input-text {
     width: 270px;
@@ -190,6 +189,7 @@ input {
     border: solid 1px;
     border-color: transparent;
     border-bottom: 1px solid #484948;
+        text-indent: 30px;
 }
 .input-text:focus {
     background-color: #1b5288;
