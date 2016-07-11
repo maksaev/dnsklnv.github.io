@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'lucida_sans_unicoderegular';
+    src: url(../fonts/lucida-sans-unicode-webfont.eot);
+    src: url(../fonts/lucida-sans-unicode-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/lucida-sans-unicode-webfont.woff2) format('woff2'), url(../fonts/lucida-sans-unicode-webfont.woff) format('woff'), url(/fontslucida-sans-unicode-webfont.ttf) format('truetype'), url(../fonts/lucida-sans-unicode-webfont.svg#lucida_sans_unicoderegular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  width: 1000px;
+	font-family: lucida_sans_unicoderegular;
+	background-color: pink;
+  margin: 0 auto;
+}
+.wraper {
+  width: 912px;
+  height: 100vh;
+  background-color: #eaec8b;
+}
+header > span {
+  font-family: arial;
+  font-size: 18px;
+  color: #5e696d;
+  word-spacing: 0;
+}
+form {
+  width: 495px;
+  height: 27px;
+  background-color: #5e64fe;
+  border-radius: 4px;
+  display: inline-block;;
+}
+.login, .password {
+  width: 115px;
+  height: 11px;
+  margin: 4px 0 5px 0px;
+}
+.submit {
+  background-color: transparent;
+  border-color: transparent;
+  width: 30px;
+  padding: 0 0 0 0;
+  font-size: 11px;
+  color: white;
+}
+.registr {
+  font-size: 11px;
+  width: 73px;
+  border-left: 1px solid white;
+  padding: 0 0 0 5px;
+  color: white;
+  text-decoration: none;
+}
+.password-forgot {
+  font-size: 11px;
+  margin: 0 0 0 10px;
+  color: #bfbfbf;
+  text-decoration: none;
+  border-bottom: 1px solid #bfbfbf;
+}
+.login-ico {
+  vertical-align: middle;
+  margin: 0 0 0 7px;
+}
