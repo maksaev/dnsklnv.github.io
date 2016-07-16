@@ -580,6 +580,9 @@ figcaption {
 .colum3 {
   padding: 0 0 0 7px;
 }
+.colum3 img {
+  margin: 5px 0 0 27px;
+}
 h4 {
   font-family: arial, sans-serif;
   color: #154467;
